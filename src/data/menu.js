@@ -3,169 +3,169 @@ const menu = [
     id: 1,
     itemName: 'COFFEE',
     price: '8oz: $2.50 / 12oz: $2.75',
-    type: 'Coffee'
+    type: 'Hot'
   },
   {
     id: 2,
-    itemName: 'Dark Roast',
+    itemName: 'AU LAIT',
     price: '8oz: $2.50 / 12oz: $2.75',
-    type: 'Coffee'
+    type: 'Hot'
   },
   {
     id: 3,
-    itemName: 'Decaf (hot or iced)',
+    itemName: 'ESPRESSO',
     price: '8oz: $2.50 / 12oz: $2.75',
-    type: 'Coffee'
+    type: 'Hot'
   },
   {
     id: 4,
-    itemName: 'Nitro Cold Brew',
+    itemName: 'AMERICANO',
     price: '8oz: $3.75 / 12oz: $4.00',
-    type: 'Coffee'
+    type: 'Hot'
   },
   {
     id: 5,
-    itemName: 'Latte (hot or iced)',
+    itemName: 'MACCCHIATO',
     price: '8oz: $4.00 / 12oz: $4.25',
-    type: 'Espresso'
+    type: 'Hot'
   },
   {
     id: 6,
-    itemName: 'Cappuccino',
+    itemName: 'CORTADO',
     price: '8oz: $3.75',
-    type: 'Espresso'
+    type: 'Hot'
   },
   {
     id: 7,
-    itemName: 'Americano (hot or iced)',
+    itemName: 'FLAT WHITE',
     price: '8oz: $3.00 / 12oz: $3.25',
-    type: 'Espresso'
+    type: 'Hot'
   },
   {
     id: 8,
-    itemName: 'Mocha (hot or iced)',
+    itemName: 'LATTE',
     price: '8oz: $4.50 / 12oz: $4.75',
-    type: 'Espresso'
+    type: 'Hot'
   },
   {
     id: 9,
-    itemName: 'Blended Iced Latte',
+    itemName: 'MOCHA',
     price: '8oz: $4.75 / 12oz: $5.00',
-    type: 'Espresso'
+    type: 'Hot'
   },
   {
     id: 10,
-    itemName: 'Espresso Shot',
+    itemName: 'HOT CHOCOLATE',
     price: '$3.00',
-    type: 'Espresso'
+    type: 'Hot'
   },
   {
     id: 11,
-    itemName: 'Matcha Latte (hot or iced)',
+    itemName: 'MATCHA LATTE',
     price: '8oz: $4.00 / 12oz: $4.25',
-    type: 'Tea'
+    type: 'Hot'
   },
   {
     id: 12,
-    itemName: 'Chai Latte (hot or iced)',
+    itemName: 'CHAI LATTE',
     price: '8oz: $4.00 / 12oz: $4.25',
-    type: 'Tea'
+    type: 'Hot'
   },
   {
     id: 13,
-    itemName: 'Dirty Chai Latte (hot or iced)',
+    itemName: 'English BreakFast',
     price: '8oz: $4.25 / 12oz: $4.50',
     type: 'Tea'
   },
   {
     id: 14,
-    itemName: 'Black Tea',
+    itemName: 'BLUE FLOWER EARL GREY',
     price: '$2.75',
     type: 'Tea'
   },
   {
     id: 15,
-    itemName: 'Green Tea',
+    itemName: 'JASMINE',
     price: '$2.75',
     type: 'Tea'
   },
   {
     id: 16,
-    itemName: 'Herbal Tea',
+    itemName: 'PEAFLOWER BLOSSOM',
     price: '$2.75',
     type: 'Tea'
   },
   {
     id: 17,
-    itemName: 'Beer on Tap',
+    itemName: 'GINGER LEMON',
     price: '$6.50',
-    type: 'Beer & Wine'
+    type: 'Tea'
   },
   {
     id: 18,
-    itemName: 'Red Wine',
+    itemName: 'PEPPERMINT',
     price: '$6.00',
-    type: 'Beer & Wine'
+    type: 'Tea'
   },
   {
     id: 19,
-    itemName: 'White Wine',
+    itemName: 'CHAMOMILE FLOWERS',
     price: '$6.00',
-    type: 'Beer & Wine'
+    type: 'Tea'
   },
   {
     id: 20,
-    itemName: 'Rosé',
+    itemName: 'COLD BREW',
     price: '$6.25',
-    type: 'Beer & Wine'
+    type: 'Cold'
   },
   {
     id: 21,
-    itemName: 'Red Sangria',
+    itemName: 'COLD BREW LATTE',
     price: '$6.25',
-    type: 'Beer & Wine'
+    type: 'Cold'
   },
   {
     id: 22,
-    itemName: 'Blueberry Muffin',
+    itemName: 'ICED AMERICANO',
     price: '$2.75',
-    type: 'Bakery'
+    type: 'Cold'
   },
   {
     id: 23,
-    itemName: 'Butter Croissant',
+    itemName: 'ICED CORTADO',
     price: '$3.75',
-    type: 'Bakery'
+    type: 'Cold'
   },
   {
     id: 24,
-    itemName: 'Almond Croissant',
+    itemName: 'ICED CAPPUCCINO',
     price: '$4.00',
-    type: 'Bakery'
+    type: 'Cold'
   },
   {
     id: 25,
-    itemName: 'Banana Bread',
+    itemName: 'ICED LATTE',
     price: '$3.00',
-    type: 'Bakery'
+    type: 'Cold'
   },
   {
     id: 26,
-    itemName: 'Toasted Bagel and Cream Cheese',
+    itemName: 'ICED MOCHA',
     price: '$3.50',
-    type: 'Bites'
+    type: 'Cold'
   },
   {
     id: 27,
-    itemName: 'Egg and Cheese Sandwich',
+    itemName: 'ICED MATCHA LATTE',
     price: '$5.25',
-    type: 'Bites'
+    type: 'Cold'
   },
   {
     id: 28,
-    itemName: 'Avocado Toast',
+    itemName: 'ICED CHAI LATTE',
     price: '$5.50',
-    type: 'Bites'
+    type: 'Cold'
   },
   {
     id: 29,
