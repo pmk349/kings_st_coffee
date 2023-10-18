@@ -6,7 +6,10 @@ const Home = () => {
   return (
     <section className="main-content home">
       <section className="content-container welcome">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sapien pellentesque habitant morbi tristique senectus et netus et malesuada. Vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Venenatis tellus in metus vulputate eu.</p>
+        <p>Welcome to King's Street Coffee!</p>
+        <p>We sell the third wave coffee (Sweetleaf, New York & Heart Coffee, Portland) and selective tea(Mem Tea, Boston), 
+          in addition to baked goods from Balthazar and King's Street Coffee. We can guarantee that any drink you get will 
+          be delicious and of high quality. Our atmosphere is very cozy, so it is a great place to stop by with friends</p>
       </section>
       <section className="content-container image-gallery">
         <ImageGallery />

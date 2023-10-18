@@ -25,7 +25,7 @@ const menu = [
   },
   {
     id: 5,
-    itemName: 'MACCCHIATO',
+    itemName: 'MACCHIATO',
     price: '8oz: $4.00 / 12oz: $4.25',
     type: 'Hot'
   },
@@ -70,12 +70,6 @@ const menu = [
     itemName: 'CHAI LATTE',
     price: '8oz: $4.00 / 12oz: $4.25',
     type: 'Hot'
-  },
-  {
-    id: 13,
-    itemName: 'English BreakFast',
-    price: '8oz: $4.25 / 12oz: $4.50',
-    type: 'Tea'
   },
   {
     id: 14,
