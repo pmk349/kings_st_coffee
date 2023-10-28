@@ -52,10 +52,10 @@ main {
   max-width: 100%;
   padding: 70px 0 20px;
   .content-container.welcome {
-    font-size: 1.7rem;
+    font-size: 2rem;
     margin: 0 auto;
     max-width: 1000px;
-    padding: 0 40px 80px;
+    padding: 0 40px 60px;
     text-align: center;
     p {
       margin: 0;
@@ -229,6 +229,11 @@ main {
     .price {
       font-size: 0.85rem;
     }
+  }
+  
+  .sub-item {
+    font-size: 0.85rem;
+    margin-left: 5px;
   }
   .menu-info {
     font-size: 0.9rem;

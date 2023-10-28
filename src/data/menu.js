@@ -2,171 +2,189 @@ const menu = [
   {
     id: 1,
     itemName: 'COFFEE',
-    price: '8oz: $2.50 / 12oz: $2.75',
+    price: '12oz: $3.90 / 16ox: $4.36',
     type: 'Hot'
   },
   {
     id: 2,
     itemName: 'AU LAIT',
-    price: '8oz: $2.50 / 12oz: $2.75',
+    price: '12oz: $4.36 / 16oz: $4.82',
     type: 'Hot'
   },
   {
     id: 3,
     itemName: 'ESPRESSO',
-    price: '8oz: $2.50 / 12oz: $2.75',
+    price: '1.5oz: $3.67',
     type: 'Hot'
   },
   {
     id: 4,
     itemName: 'AMERICANO',
-    price: '8oz: $3.75 / 12oz: $4.00',
+    price: '8oz: $4.13 / 12oz: $4.13',
     type: 'Hot'
   },
   {
     id: 5,
     itemName: 'MACCHIATO',
-    price: '8oz: $4.00 / 12oz: $4.25',
+    price: '3oz: $4.13',
     type: 'Hot'
   },
   {
     id: 6,
     itemName: 'CORTADO',
-    price: '8oz: $3.75',
+    price: '4oz: $4.36',
     type: 'Hot'
   },
   {
     id: 7,
     itemName: 'FLAT WHITE',
-    price: '8oz: $3.00 / 12oz: $3.25',
+    price: '8oz: $4.58',
     type: 'Hot'
   },
   {
     id: 8,
     itemName: 'LATTE',
-    price: '8oz: $4.50 / 12oz: $4.75',
+    price: '12oz: $5.05 / 16oz: $5.74',
     type: 'Hot'
   },
   {
     id: 9,
     itemName: 'MOCHA',
-    price: '8oz: $4.75 / 12oz: $5.00',
+    price: '12oz: $5.74 / 16oz: $6.43',
     type: 'Hot'
   },
   {
     id: 10,
     itemName: 'HOT CHOCOLATE',
-    price: '$3.00',
+    price: '12oz: $5.05 / 16oz: $5.51',
     type: 'Hot'
   },
   {
     id: 11,
     itemName: 'MATCHA LATTE',
-    price: '8oz: $4.00 / 12oz: $4.25',
-    type: 'Hot'
+    price: '12oz: $5.51 / 16oz: $6.43',
+    type: 'Hot',
   },
   {
     id: 12,
     itemName: 'CHAI LATTE',
-    price: '8oz: $4.00 / 12oz: $4.25',
-    type: 'Hot'
+    price: '12oz: $5.05 / 16oz: $5.51',
+    type: 'Hot',
+    info: "Masala, Tumeric"
   },
   {
     id: 14,
-    itemName: 'BLUE FLOWER EARL GREY',
-    price: '$2.75',
-    type: 'Tea'
+    itemName: 'TEA',
+    price: '16oz: $4.13',
+    type: 'Hot',
+    info:"English Breakfast, Blue FLower Earl Grey, Jasmine, PeaFlower Blossom, Ginger Lemon, Peppermint, Chamomile Flowers"
   },
   {
-    id: 15,
-    itemName: 'JASMINE',
-    price: '$2.75',
-    type: 'Tea'
+    id: 14,
+    itemName: 'BOX OF COFFEE',
+    price: '$36.00',
+    type: 'Hot',
   },
   {
     id: 16,
-    itemName: 'PEAFLOWER BLOSSOM',
-    price: '$2.75',
-    type: 'Tea'
+    itemName: 'COLD BREW',
+    price: '12oz: $4.36 / 20oz: $5.51',
+    type: 'Cold'
   },
   {
     id: 17,
-    itemName: 'GINGER LEMON',
-    price: '$6.50',
-    type: 'Tea'
+    itemName: 'COLD BREW LATTE',
+    price: '12oz: $5.74 / 20oz: $6.66',
+    type: 'Cold'
   },
   {
     id: 18,
-    itemName: 'PEPPERMINT',
-    price: '$6.00',
-    type: 'Tea'
+    itemName: 'ICED AMERICANO',
+    price: '12oz: $4.36 / 20oz: $5.51',
+    type: 'Cold'
   },
   {
     id: 19,
-    itemName: 'CHAMOMILE FLOWERS',
-    price: '$6.00',
-    type: 'Tea'
+    itemName: 'ICED CORTADO',
+    price: '8oz: $4.36',
+    type: 'Cold'
   },
   {
     id: 20,
-    itemName: 'COLD BREW',
-    price: '$6.25',
+    itemName: 'ICED CAPPUCCINO',
+    price: '12oz: $5.28',
     type: 'Cold'
   },
   {
     id: 21,
-    itemName: 'COLD BREW LATTE',
-    price: '$6.25',
+    itemName: 'ICED LATTE',
+    price: '12oz: $5.05 / 20oz: $6.66',
     type: 'Cold'
   },
   {
     id: 22,
-    itemName: 'ICED AMERICANO',
-    price: '$2.75',
+    itemName: 'ICED MOCHA',
+    price: '12oz: $5.74 / 20oz: $7.13',
     type: 'Cold'
   },
   {
     id: 23,
-    itemName: 'ICED CORTADO',
-    price: '$3.75',
+    itemName: 'ICED MATCHA LATTE',
+    price: '12oz: $5.51 / 20oz: $6.43',
     type: 'Cold'
   },
   {
     id: 24,
-    itemName: 'ICED CAPPUCCINO',
-    price: '$4.00',
+    itemName: 'ICED CHAI LATTE',
+    price: '12oz: $5.05 / 20oz: $6.20',
     type: 'Cold'
   },
   {
     id: 25,
-    itemName: 'ICED LATTE',
-    price: '$3.00',
-    type: 'Cold'
+    itemName: 'ICED TEA',
+    price: '12oz: $3.90 / 20oz: $4.59',
+    type: 'Cold',
+    info: "Black, Green, Blood Orange Hibiscus"
+  },
+  {
+    id: 25,
+    itemName: 'Ham and Egg Croissant',
+    price: '$8.96',
+    type: 'Bites',
+    info: "Add on Avocado + 3.50"
   },
   {
     id: 26,
-    itemName: 'ICED MOCHA',
-    price: '$3.50',
-    type: 'Cold'
+    itemName: 'Avocado Toast w/ Ricotta',
+    price: '$13.32',
+    type: 'Bites',
+    info: "Add on Hard Boiled Egg + 2.00"
   },
   {
     id: 27,
-    itemName: 'ICED MATCHA LATTE',
-    price: '$5.25',
-    type: 'Cold'
+    itemName: 'Tomato Vinaigrette w/ Feta',
+    price: '$13.32',
+    type: 'Bites',
+    info: "Add on Hard Boiled Egg + 2.00"
   },
   {
     id: 28,
-    itemName: 'ICED CHAI LATTE',
-    price: '$5.50',
-    type: 'Cold'
+    itemName: 'Fig and Brie',
+    price: '$14.24',
+    type: 'Bites'
   },
   {
     id: 29,
-    itemName: 'Buttered Toast and Jam',
-    price: '$4.00',
+    itemName: 'Classic French Ham and Cheese',
+    price: '$14.24',
     type: 'Bites'
-  }
+  },
+  {
+    id: 30,
+    itemName: 'Roasted Mushroom',
+    price: '$14.24',
+    type: 'Bites'
+  },
 ];
 
 export default menu;

@@ -18,6 +18,8 @@
   },
   "homepage": "https://autumnchris-multipage-coffee-shop-site.onrender.com",
   "dependencies": {
+    "@googlemaps/react-wrapper": "^1.1.35",
+    "google-maps-react": "^2.0.6",
     "normalize.css": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

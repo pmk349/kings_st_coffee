@@ -9,20 +9,21 @@ const Menu = () => {
       <HeroBanner heading="Our Menu" imageFile={menuHeroBanner} />
       <section className="main-content menu">
         <h3>Drinks</h3>
-        <p className="menu-info"><span className="bold">Milk Selections:</span> Low Fat, Skim, Half & Half, Almond, Oat</p>
-        <p className="menu-info"><span className="bold">House Made Syrups $0.50:</span> Mocha, White Mocha, Caramel, Vanilla, Cinnamon, Raspberry, Hazelnut, Lavender</p>
+        <p className="menu-info"><span className="bold">Alt Milk $1.00:</span> Almond, Coconut, Oat, Soy, Breve</p>
+        <p className="menu-info"><span className="bold">Flavor $0.75:</span> Caramel, Hazelnut, Lavender, Rose, Vanilla</p>
+        <p className="menu-info"><span className="bold">Extra Shot $2.00</span></p>
         <h4>Hot Drinks</h4>
         <MenuList type="Hot" />
         <h4>Cold Drinks</h4>
         <MenuList type="Cold" />
-        <h4>Hot Tea</h4>
-        <MenuList type="Tea" />
         <hr />
         <h3>Food</h3>
         <h4>Bakery</h4>
         <MenuList type="Bakery" />
         <h4>Bites</h4>
         <MenuList type="Bites" />
+        <h3>Fridge</h3>
+
       </section>
     </React.Fragment>
   );
