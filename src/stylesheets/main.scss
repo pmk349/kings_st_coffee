@@ -18,35 +18,6 @@ main {
   }
 }
 
-// Styles for pages with a hero banner
-.hero-banner + .main-content {
-  h3 {
-    border-bottom: 6px double $golden-brown;
-    color: $dark-brown;
-    font-size: 1.8rem;
-    letter-spacing: 3px;
-    margin: 0 auto;
-    padding: 0 15px;
-    text-align: center;
-    text-transform: uppercase;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-    @media all and (min-width: 620px) {
-      font-size: 2.2rem;
-    }
-  }
-  h4 {
-    color: $dark-brown;
-    font-size: 1.4rem;
-    letter-spacing: 2px;
-    margin: 0;
-    @media all and (min-width: 620px) {
-      font-size: 1.6rem;
-    }
-  }
-}
-
 // Homepage styles
 .main-content.home {
   max-width: 100%;
@@ -55,7 +26,7 @@ main {
     font-size: 2rem;
     margin: 0 auto;
     max-width: 1000px;
-    padding: 0 40px 60px;
+    padding: 0 40px 40px;
     text-align: center;
     p {
       margin: 0;
@@ -193,7 +164,20 @@ main {
 // Menu page styles
 .main-content.menu {
   h3 {
-    margin-bottom: 30px;
+    border-bottom: 6px double $golden-brown;
+    color: $dark-brown;
+    font-size: 1.8rem;
+    letter-spacing: 3px;
+    margin: 0 auto;
+    padding: 0 15px;
+    text-align: center;
+    text-transform: uppercase;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    @media all and (min-width: 620px) {
+      font-size: 2.2rem;
+    }
   }
   h4 {
     border-bottom: 2px solid $golden-brown;
@@ -242,8 +226,21 @@ main {
 
 // Visit page styles
 .main-content.visit {
-  h3:not(:first-child) {
-    margin-top: 40px;
+  h3 {
+    border-bottom: 6px double $golden-brown;
+    color: $dark-brown;
+    font-size: 1.8rem;
+    letter-spacing: 3px;
+    margin: 0 auto;
+    padding: 0 15px;
+    text-align: center;
+    text-transform: uppercase;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    @media all and (min-width: 620px) {
+      font-size: 2.2rem;
+    }
   }
   p {
     font-size: 1.1rem;

@@ -1,11 +1,8 @@
 import React from 'react';
-import HeroBanner from '../components/HeroBanner';
-import visitHeroBanner from '../assets/images/visit-hero-banner.jpg';
 
 const Visit = () => {
   return (
     <React.Fragment>
-      <HeroBanner heading="Visit Us" imageFile={visitHeroBanner} />
       <section className="main-content visit">
         <h3>Hours</h3>
         <p>Mon-Fri 7AM - 5PM</p>

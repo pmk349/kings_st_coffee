@@ -1,12 +1,9 @@
 import React from 'react';
 import MenuList from '../components/MenuList';
-import HeroBanner from '../components/HeroBanner';
-import menuHeroBanner from '../assets/images/menu-hero-banner.jpg';
 
 const Menu = () => {
   return (
     <React.Fragment>
-      <HeroBanner heading="Our Menu" imageFile={menuHeroBanner} />
       <section className="main-content menu">
         <h3>Drinks</h3>
         <p className="menu-info"><span className="bold">Alt Milk $1.00:</span> Almond, Coconut, Oat, Soy, Breve</p>

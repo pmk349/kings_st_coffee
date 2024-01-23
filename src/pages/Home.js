@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <section className="main-content home">
       <section className="content-container welcome">
-        <p>Welcome to King's Street Coffee!</p>
+        <h3>Welcome to King's Street Coffee!</h3>
       </section>
       <section className="content-container image-gallery">
         <ImageGallery />
