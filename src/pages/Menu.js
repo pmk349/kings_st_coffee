@@ -15,11 +15,7 @@ const Menu = () => {
         <MenuList type="Cold" />
         <hr />
         <h3>Food</h3>
-        <h4>Bakery</h4>
-        <MenuList type="Bakery" />
-        <h4>Bites</h4>
         <MenuList type="Bites" />
-        <h3>Fridge</h3>
 
       </section>
     </React.Fragment>

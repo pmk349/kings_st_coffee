@@ -479,7 +479,7 @@ html {
   .main-content.home .content-container.welcome p {
     margin: 0;
   }
-  
+    
   .main-content.home .content-container.image-gallery {
     display: -ms-grid;
     display: grid;

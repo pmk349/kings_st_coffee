@@ -6,9 +6,7 @@ import { Map } from '@googlemaps/react-wrapper'
 const Home = () => {
   return (
     <section className="main-content home">
-      <section className="content-container welcome">
-        <h3>Welcome to King's Street Coffee!</h3>
-      </section>
+      <h3>Welcome to King's Street Coffee!</h3>
       <section className="content-container image-gallery">
         <ImageGallery />
       </section>
